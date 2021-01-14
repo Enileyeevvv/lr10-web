@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    background: lightcyan;
+}
+
+h1 {
+    text-align: center;
+}
+
+#canvas {
+    margin: 0 auto;
+    display: block;
+    height: 2000; 
+    width: 2000; 
+}
+  
+.turn {
+    text-align: center;
+}
+  
+.countWins {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+ 
+.buttons {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#newRound {
+    width: 150px;
+    height: 30px;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#deleteAll {
+    width: 150px;
+    height: 30px;
+    background: red;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
